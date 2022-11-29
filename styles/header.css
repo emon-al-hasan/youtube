@@ -71,3 +71,25 @@
     height: 24px;
    
 }
+.right-section{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.upload-image
+{
+height: 24px;
+}
+.youtube-image{
+height: 24px;
+}
+.notitfication-image{
+    height: 24px;
+
+}
+.channel-image{
+    height: 32px;
+
+}
