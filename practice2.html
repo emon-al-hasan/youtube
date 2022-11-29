@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        .grid-coloums{
+            display: grid;
+            grid-template-columns:repeat(3,1fr);
+            width: 100%;
+            height: 100%;
+           
+            column-gap: 10px;
+            
+           
+
+           
+            
+
+         
+        }
+        .cat-img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        object-position: center;
+        }
+        .cat-images{
+            width: 35px;
+            height: 35px;
+            border-radius: 17px;
+            object-fit: cover;
+            object-position: center;
+            margin-right: 10px;
+        }
+        .cat-temp{
+            display: grid;
+            grid-template-columns: 40px 1fr;
+            align-items: center;
+           
+
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-coloums">
+        <div>
+            <div><img  class="cat-img" src="images/istockphoto-1322123064-612x612.jpg" alt=""></div>
+            <div>
+                <h2>Oliver</h2>
+            </div>
+            <div class="cat-temp">
+                <div>
+                    <img class="cat-images" src="images/istockphoto-1322123064-612x612.jpg" alt="">
+                </div>
+                <div>
+                    <p>2 mutual Friends</p>
+                 
+                </div>
+                
+                
+            </div>
+            <button>Add Friend</button>
+        </div>
+
+        <div>
+            <div><img class="cat-img" src="images/istockphoto-1322123064-612x612.jpg" alt=""></div>
+        <div>
+            <h2>Oliver</h2>
+        </div>
+        <div class="cat-temp">
+            <div>
+                <img class="cat-images" src="images/istockphoto-1322123064-612x612.jpg" alt="">
+            </div>
+            <div>
+                <p>2 mutual Friends</p>
+            </div>
+    </div>
+    <button>Add Friend</button>
+    </div>
+    <div>
+        <div><img class="cat-img" src="images/istockphoto-1322123064-612x612.jpg" alt=""></div>
+    <div>
+        <h2>Oliver</h2>
+    </div>
+    <div class="cat-temp">
+        <div>
+            <img class="cat-images" src="images/istockphoto-1322123064-612x612.jpg" alt="">
+        </div>
+        <div>
+            <p>2 mutual Friends</p>
+        </div>
+</div>
+ 
+  </div>
+
+    </div>
+</body>
+</html>
